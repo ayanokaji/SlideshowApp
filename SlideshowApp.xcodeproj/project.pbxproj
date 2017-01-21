@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0399241E338E25007D0B37 /* 01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0399231E338E25007D0B37 /* 01.jpeg */; };
+		7C0399261E338EA0007D0B37 /* 02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0399251E338EA0007D0B37 /* 02.jpeg */; };
+		7C0399281E338EA5007D0B37 /* 03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0399271E338EA5007D0B37 /* 03.jpeg */; };
+		7C03992A1E339A21007D0B37 /* ExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0399291E339A21007D0B37 /* ExpandedViewController.swift */; };
 		7C6C688C1E338AE500494F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C688B1E338AE500494F24 /* AppDelegate.swift */; };
 		7C6C688E1E338AE500494F24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C688D1E338AE500494F24 /* ViewController.swift */; };
 		7C6C68911E338AE500494F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C688F1E338AE500494F24 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0399231E338E25007D0B37 /* 01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpeg; sourceTree = "<group>"; };
+		7C0399251E338EA0007D0B37 /* 02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpeg; sourceTree = "<group>"; };
+		7C0399271E338EA5007D0B37 /* 03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpeg; sourceTree = "<group>"; };
+		7C0399291E339A21007D0B37 /* ExpandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandedViewController.swift; sourceTree = "<group>"; };
 		7C6C68881E338AE500494F24 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6C688B1E338AE500494F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C6C688D1E338AE500494F24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,7 @@
 		7C6C687F1E338AE500494F24 = {
 			isa = PBXGroup;
 			children = (
+				7C0399291E339A21007D0B37 /* ExpandedViewController.swift */,
 				7C6C688A1E338AE500494F24 /* SlideshowApp */,
 				7C6C689F1E338AE500494F24 /* SlideshowAppTests */,
 				7C6C68AA1E338AE500494F24 /* SlideshowAppUITests */,
@@ -100,6 +109,9 @@
 				7C6C688B1E338AE500494F24 /* AppDelegate.swift */,
 				7C6C688D1E338AE500494F24 /* ViewController.swift */,
 				7C6C688F1E338AE500494F24 /* Main.storyboard */,
+				7C0399231E338E25007D0B37 /* 01.jpeg */,
+				7C0399251E338EA0007D0B37 /* 02.jpeg */,
+				7C0399271E338EA5007D0B37 /* 03.jpeg */,
 				7C6C68921E338AE500494F24 /* Assets.xcassets */,
 				7C6C68941E338AE500494F24 /* LaunchScreen.storyboard */,
 				7C6C68971E338AE500494F24 /* Info.plist */,
@@ -232,6 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0399281E338EA5007D0B37 /* 03.jpeg in Resources */,
+				7C0399241E338E25007D0B37 /* 01.jpeg in Resources */,
+				7C0399261E338EA0007D0B37 /* 02.jpeg in Resources */,
 				7C6C68961E338AE500494F24 /* LaunchScreen.storyboard in Resources */,
 				7C6C68931E338AE500494F24 /* Assets.xcassets in Resources */,
 				7C6C68911E338AE500494F24 /* Main.storyboard in Resources */,
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C03992A1E339A21007D0B37 /* ExpandedViewController.swift in Sources */,
 				7C6C688E1E338AE500494F24 /* ViewController.swift in Sources */,
 				7C6C688C1E338AE500494F24 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +519,7 @@
 				7C6C68B21E338AE500494F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C6C68B31E338AE500494F24 /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				7C6C68B51E338AE500494F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C6C68B61E338AE500494F24 /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				7C6C68B81E338AE500494F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
